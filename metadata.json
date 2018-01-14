@@ -1,0 +1,14 @@
+{
+  "name": "nrpe",
+  "version": "0.1.0",
+  "author": "Sebor",
+  "summary": "NRPE module",
+  "license": "Apache 2.0",
+  "source": "gitlab.example.com",
+  "project_page": null,
+  "issues_url": "www.google.com",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
