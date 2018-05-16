@@ -6,7 +6,7 @@ class nrpe::params {
   $service_manage  = true
   $conf_file       = ['/etc/nagios/nrpe.cfg']
   $config_template = 'nrpe/nrpe.cfg.erb'
-  $nag_servers     = '127.0.0.1,172.16.1.11,172.16.1.115,172.16.1.117,10.216.41.111,nag2,monitoring1,monitoring2,monitoring3,monitoring4,monitoring5,monitoring6,mon1.tcsbank.ru,mon2.tcsbank.ru,mon3.tcsbank.ru,mon4.tcsbank.ru,mon5.tcsbank.ru,mon6.tcsbank.ru'
+  $nag_servers     = '127.0.0.1,172.16.1.11,172.16.1.115,172.16.1.117,10.216.41.111'
 
   case $::osfamily {
     'Debian': {
